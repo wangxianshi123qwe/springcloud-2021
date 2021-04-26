@@ -1,16 +1,17 @@
-或在命令行上创建新的存储库
-回声“＃springcloud2021” >> README.md
+Quick setup — if you’ve done this kind of thing before
+or
+https://github.com/wangxianshi123qwe/springcloud-2021.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+…or create a new repository on the command line
+echo "# springcloud-2021" >> README.md
 git init
 git add README.md
-git commit -m“首次提交”
+git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/wangxianshi123qwe/springcloud2021.git
- git push-你起源主要
-…或从命令行推送现有存储库
-git remote add origin https://github.com/wangxianshi123qwe/springcloud2021.git
- git分支-M main
+git remote add origin https://github.com/wangxianshi123qwe/springcloud-2021.git
 git push -u origin main
-…或从另一个存储库导入代码
-您可以使用Subversion，Mercurial或TFS项目中的代码初始化此存储库。
-
-https://github.com/wangxianshi123qwe/springcloud2021.git
+…or push an existing repository from the command line
+git remote add origin https://github.com/wangxianshi123qwe/springcloud-2021.git
+git branch -M main
+git push -u origin mainpringcloud2021.git
