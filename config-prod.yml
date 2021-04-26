@@ -1,0 +1,8 @@
+#支付服务模块
+server:
+  port: 8003
+spring:
+  application:
+    name: cloud-payment-service-prod
+
+
