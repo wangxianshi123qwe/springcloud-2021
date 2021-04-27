@@ -1,6 +1,6 @@
 #支付服务模块
 server:
-  port: 8002
+  port: 8002dd
 spring:
   application:
     name: cloud-payment-service-dev
